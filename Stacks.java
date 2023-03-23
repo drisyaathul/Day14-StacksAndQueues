@@ -9,7 +9,6 @@ public class Stacks<T> {
 
         linkedList.push(data);
     }
-
     public void display() {
 
         linkedList.display();
