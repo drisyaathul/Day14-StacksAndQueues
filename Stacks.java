@@ -14,10 +14,10 @@ public class Stacks<T> {
     public T pop() {
         return linkedList.pop();
     }
-    public void peek() {
+    public void peak() {
 
-        Integer peekedData = (Integer) linkedList.pop();
-        System.out.println("The Peek Element = "+peekedData);
-        linkedList.push((T) peekedData);
+        Integer peakedData = (Integer) linkedList.pop();
+        System.out.println("The Peak Element = "+peakedData);
+        linkedList.push((T) peakedData);
     }
 }

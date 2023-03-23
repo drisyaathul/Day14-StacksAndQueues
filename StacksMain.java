@@ -11,8 +11,8 @@ public class StacksMain {
         stacks.display();
         System.out.println();
  //UC2:
-        System.out.println( " *** Peek Element ***");
-        stacks.peek();
+        System.out.println( " *** Peak Element ***");
+        stacks.peak();
         System.out.println();
         System.out.println( " *** Popped Element ***");
         Integer poppedData;
