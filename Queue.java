@@ -9,7 +9,20 @@ public class Queue<T> {
     public void append(T data) {
         linkedList.append(data);
     }
+
     public void display() {
         linkedList.display();
     }
+    public T poplast() {
+       return linkedList.poplast();
+    }
+    public void deQueue() {
+
+        Integer deQueue = (Integer) linkedList.poplast();
+        linkedList.append((T) deQueue);
+    }
+
+
 }
+
+

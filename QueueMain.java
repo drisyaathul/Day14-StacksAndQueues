@@ -9,5 +9,19 @@ public class QueueMain {
         queue.append(30);
         queue.append(70);
         queue.display();
+        System.out.println();
+//UC4:
+        System.out.println(" *** Dequeue *** ");
+        queue.deQueue();
+        queue.display();
+        Integer deQueue = queue.poplast();
+
+            if (deQueue == null) {
+                System.out.println("Queue is Empty");
+            } else
+                System.out.println("The Element popped is " + deQueue);
+            queue.display();
     }
 }
+
+
